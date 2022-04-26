@@ -15,17 +15,37 @@ Dark Green: #28b485
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(40, 183, 135, 0.7);
+}
+
 body {
   font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #777;
+  padding: 30px;
 }
 
 .header {
   height: 95vh;
-  background-image: url(/img/hero.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.8),
+      rgba(40, 183, 135, 0.8)
+    ),
+    url(/img/hero.jpg);
   background-size: cover;
   background-position: top;
+
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
