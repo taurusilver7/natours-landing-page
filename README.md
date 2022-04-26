@@ -9,3 +9,5 @@
 - Learn to clip parts of elements using `clip-path`.
 
 * Linear gradient— the direction, the color pallate (with opactity, included)
+
+- To clip path of a picture in polygon, learn from [clip path](https://bennettfeely.com/clippy/)
