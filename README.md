@@ -12,3 +12,5 @@
 
 - To clip path of a picture in polygon, learn from [clip path](https://bennettfeely.com/clippy/)
 - Center anything (element) with `transform, top and left` properties.
+- The `transform: translate (x, y)` depends on the parent element positioning.
+- The animation is effectively done with `transistion` propery and change the element propery with hover effect.
