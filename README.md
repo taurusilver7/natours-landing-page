@@ -11,3 +11,4 @@
 * Linear gradient— the direction, the color pallate (with opactity, included)
 
 - To clip path of a picture in polygon, learn from [clip path](https://bennettfeely.com/clippy/)
+- Center anything (element) with `transform, top and left` properties.
