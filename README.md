@@ -15,3 +15,5 @@
 - The `transform: translate (x, y)` depends on the parent element positioning.
 - The animation is effectively done with `transistion` propery and change the element propery with hover effect.
 - The other variant is `@keyframes` property for animation where each moment is described.
+
+- Pseudo-elements & pseudo-class.
