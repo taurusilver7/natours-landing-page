@@ -17,3 +17,5 @@
 - The other variant is `@keyframes` property for animation where each moment is described.
 
 - Pseudo-elements & pseudo-class.
+  The pseudo elements of anchor are link, visited, hover..,
+- The box-shadow property had attributes in (offset x, offset y, blur, color)
