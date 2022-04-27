@@ -19,3 +19,5 @@
 - Pseudo-elements & pseudo-class.
   The pseudo elements of anchor are link, visited, hover..,
 - The box-shadow property had attributes in (offset x, offset y, blur, color)
+
+- replacing px values with rem. Add a refernce value as `1rem = 10px` and replace the stylesheet with corresponding rem values.
