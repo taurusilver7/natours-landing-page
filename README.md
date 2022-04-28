@@ -33,3 +33,8 @@
 - A script to compile the code in `main.scss` to override the content in `style.css` is created in package.json
 
 `"scripts": { "compile:sass": "node-sass sass/main.scss css/style.css", }`
+
+- To avoid multiple compiling process, a watch factor is added to the script to allow the project to watch over the changes in sass file.
+- Install a global package for automatically reloading the page on changes.
+
+- Convert the code in css to sass with variables, nesting, mixins, and functions.
