@@ -29,3 +29,4 @@
 * The CSS architecture is the folder structure for preprocessors used in the project. The `7-in-1` pattern is the most commonly used pattern for any preprocessor. It splits 7 differnt folders for partial Sass fies and 1 main Sass file for importing all other files into a compiled CSS stylesheet.
 
 - partial Sass folders: `base/` `components/` `layout/` `pages/` `themes/` `abstract/` `vendors/`
+- install node and npm packages for node-sass dependency. Create a partial sass folder and transfer all the valid css code into main.scss file.
