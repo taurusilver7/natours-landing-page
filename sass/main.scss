@@ -1,12 +1,8 @@
-/* 
 
-COLORS
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
 
-Light Green: #7ed56f
-Medium Green: #55c576
-Dark Green: #28b485
-
-*/
 
 /* Universal selector */
 *,
@@ -30,7 +26,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(40, 183, 135, 0.7);
+  background-color: rgba($color-primary-dark, 0.7);
 }
 
 body {
@@ -48,8 +44,8 @@ body {
   height: 95vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(40, 183, 135, 0.8)
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
     ),
     url(/img/hero.jpg);
   background-size: cover;
