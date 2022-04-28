@@ -30,3 +30,6 @@
 
 - partial Sass folders: `base/` `components/` `layout/` `pages/` `themes/` `abstract/` `vendors/`
 - install node and npm packages for node-sass dependency. Create a partial sass folder and transfer all the valid css code into main.scss file.
+- A script to compile the code in `main.scss` to override the content in `style.css` is created in package.json
+
+`"scripts": { "compile:sass": "node-sass sass/main.scss css/style.css", }`
