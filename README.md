@@ -28,7 +28,7 @@
 
 * The CSS architecture is the folder structure for preprocessors used in the project. The `7-in-1` pattern is the most commonly used pattern for any preprocessor. It splits 7 differnt folders for partial Sass fies and 1 main Sass file for importing all other files into a compiled CSS stylesheet.
 
-- partial Sass folders: `base/` `components/` `layout/` `pages/` `themes/` `abstract/` `vendors/`
+- The partial SASS folders: `base/` `components/` `layout/` `pages/` `themes/` `abstract/` `vendors/`
 - install node and npm packages for node-sass dependency. Create a partial sass folder and transfer all the valid css code into main.scss file.
 - A script to compile the code in `main.scss` to override the content in `style.css` is created in package.json
 
@@ -37,4 +37,7 @@
 - To avoid multiple compiling process, a watch factor is added to the script to allow the project to watch over the changes in sass file.
 - Install a global package for automatically reloading the page on changes.
 
-- Convert the code in css to sass with variables, nesting, mixins, and functions.
+- Convert the code in css to sass with variables, nesting, mixins, and functions. Implement the 7-in-1 partial folders in sass directory.
+- The body/ folder is for low level basic: resets, styles for html, body elements. It should be a partial, to import it to `main.scss` and start with an (\_)
+- The abstract/ folder has code that has no output css: mixins, variables.
+- The components/ has reusable building block used everywhere. The layout/ holds components together: global header, global footer.
