@@ -21,3 +21,11 @@
 - The box-shadow property had attributes in (offset x, offset y, blur, color)
 
 - replacing px values with rem. Add a refernce value as `1rem = 10px` and replace the stylesheet with corresponding rem values.
+- Replace the class names with BEM naming convention.
+  B - Block; a standard component meaningful on its own
+  E - Element; part of a block that has no stand-alone meaning.
+  M - Modifier; a different version of a block & Element.
+
+* The CSS architecture is the folder structure for preprocessors used in the project. The `7-in-1` pattern is the most commonly used pattern for any preprocessor. It splits 7 differnt folders for partial Sass fies and 1 main Sass file for importing all other files into a compiled CSS stylesheet.
+
+- partial Sass folders: `base/` `components/` `layout/` `pages/` `themes/` `abstract/` `vendors/`
