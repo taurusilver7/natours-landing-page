@@ -34,10 +34,12 @@
 
 `"scripts": { "compile:sass": "node-sass sass/main.scss css/style.css", }`
 
-- To avoid multiple compiling process, a watch factor is added to the script to allow the project to watch over the changes in sass file.
-- Install a global package for automatically reloading the page on changes.
+- To avoid multiple compiling process, a watch factor (-w) is added to the script to allow the project to watch over the changes in sass file.
+- Install a global package for automatically reloading the page on changes. `live-server`
 
 - Convert the code in css to sass with variables, nesting, mixins, and functions. Implement the 7-in-1 partial folders in sass directory.
-- The body/ folder is for low level basic: resets, styles for html, body elements. It should be a partial, to import it to `main.scss` and start with an (\_)
-- The abstract/ folder has code that has no output css: mixins, variables.
+- The base/ folder is for low level basic: resets, styles for html, body elements. It should be a partial, to import it to `main.scss` and start with an (`_`)
+- The abstract/ folder has code that has no output css: mixins, functions, and variables.
 - The components/ has reusable building block used everywhere. The layout/ holds components together: global header, global footer.
+
+- The responsive design principles involved fluid layout, responsive units, flexible images, media queries.
