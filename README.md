@@ -1,5 +1,7 @@
 # Natours
 
+![snap](https://i.ibb.co/FX2szXY/natours.png)
+
 - A tourism company natural tour landing page with advanced CSS and SASS.
 
 ## Build
